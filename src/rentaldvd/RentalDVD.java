@@ -29,11 +29,6 @@ public class RentalDVD {
     
 	      
     HashMap<String,Anggota> map = new HashMap<String,Anggota>();
-    
-    
-    
-   
-    
     Scanner input = new Scanner(System.in);
     
     do{
@@ -77,11 +72,6 @@ public class RentalDVD {
                             }
                          }            
         
-                    
-                    
-                    
-                    
-                    
                     
                     System.out.print("Masukan Alamat Jalan : ");
                     input.nextLine();
@@ -140,16 +130,8 @@ public class RentalDVD {
                                     }
                                 }
                            }     
-                                 
-                                 
-                                 
-                                 
-                             anggota = map.get(id);
+                    anggota = map.get(id);
                             
-                        
-                        
-                        
-                             
                     System.out.println("*Nama Penyewa : " + anggota.getNama());
                     System.out.print("Masukan Jumlah keping DVD yang disewa(ketik 0 jika tidak ada) : "); 
                    
@@ -254,8 +236,6 @@ public class RentalDVD {
                                   }
                              }
        
-       
-       
                     Anggota anggota = map.get(x);       
                     Pengembalian kembali = new Pengembalian();
                     
@@ -326,17 +306,9 @@ public class RentalDVD {
                     System.out.println("Jumlah DVD yang rusak : " + b + " keping");
                     System.out.println("Jumlah BR yang rusak : " + c + " keping");
                     System.out.println("Jumlah denda yang harus dibayar : Rp." + kembali.totalDenda() + ",-");
-                   
-                    
-                    
-                    
-                    
-                    
-                    
+                 
                     break;
                 }
-              
-                          
               
                 case 4: { 
                     stop = true;
@@ -347,19 +319,8 @@ public class RentalDVD {
         }
     }
  }
-        while(stop==false);
-    
-
-             
-    }
-    
-    
-    
-    
-    
-
-
-   
+        while(stop==false)
+ }
     
     
     static void kop(String k){
