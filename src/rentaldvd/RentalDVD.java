@@ -91,7 +91,6 @@ public class RentalDVD {
                               }
                         }            
                     
-                    
                     System.out.print("Masukan Alamat Kecamatan : "); 
                     
                         {boolean error = true;
