@@ -117,18 +117,7 @@ public class RentalDVD {
                     
                     System.out.print("Masukan Nomor Identitas : "); 
                     
-                         {boolean error = true;
-                            while(error) {
-                              try {
-                                 id = input.next();  
-                                 Integer.parseInt(id);
-                                 
-                           } catch (Exception e) {
-                                    System.out.println("Terjadi error : " +e.getMessage());
-                                    input.nextInt();
-                                    }
-                                }
-                           }     
+                    id = input.next();
                     anggota = map.get(id);
                             
                     System.out.println("*Nama Penyewa : " + anggota.getNama());
